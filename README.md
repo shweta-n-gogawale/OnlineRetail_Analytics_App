@@ -33,50 +33,9 @@ Just upload your file — the app automatically cleans, analyzes, and visualizes
 | ☁️ Deployment     | Streamlit Cloud                 |
 
 ---
-##📁 Supported Dataset Format
-Upload any retail dataset in .csv or .xlsx format
-
-The app dynamically detects required columns like:
-
-Column Type	Example Names
-📅 Date	InvoiceDate, OrderDate
-📦 Quantity	Quantity, qty
-💰 Price	UnitPrice, Price
-🧾 Invoice	InvoiceNo
-👤 Customer	CustomerID
-
-No code edits needed — just upload your file in the sidebar and explore!
-
-##🧠 App Modules
-Section	Description
-🏠 Home	Intro + upload instructions
-📥 Load Data	Upload your Excel/CSV files dynamically
-📊 EDA	Visualize sales trends, top items, and countries
-📈 Forecast	30-day forecast using Prophet
-👥 Segmentation	RFM Clustering with KMeans
-ℹ️ About	Developer info and contact
-
-##🔗 Live Demo
-👉 Click to Try the Live App on Streamlit Cloud
-
-##👩‍💻 Author
-Shweta Gogawale
-🎓 Computer Engineering Student — BVCOEW Pune
-📧 gogawaleshweta12@gmail.com
-🔗 GitHub: shweta-n-gogawale
-
-##⚠️ Disclaimer
-This is an academic and portfolio project only.
-
-No external dataset is bundled or used by default.
-
-Users are responsible for uploading their own retail data for analysis.
-
-No personal data is stored or collected by this app.
 
 ## 🖥️ How to Run Locally
 
-```bash
 # 1. Clone the repository
 git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
 cd OnlineRetail_Analytics_App
@@ -90,3 +49,56 @@ pip install -r requirements.txt
 
 # 4. Launch the app
 streamlit run app.py
+
+## 📁 Supported Dataset Format
+
+Upload any retail dataset in `.csv` or `.xlsx` format.  
+The app dynamically detects required columns like:
+
+| Column Type   | Example Names             |
+|---------------|---------------------------|
+| 📅 Date        | `InvoiceDate`, `OrderDate` |
+| 📦 Quantity    | `Quantity`, `qty`          |
+| 💰 Price       | `UnitPrice`, `Price`       |
+| 🧾 Invoice     | `InvoiceNo`                |
+| 👤 Customer    | `CustomerID`               |
+
+👉 No code edits needed — just upload your file in the sidebar and explore!
+
+---
+
+## 🧠 App Modules
+
+| Section         | Description                                          |
+|----------------|------------------------------------------------------|
+| 🏠 Home         | Intro + upload instructions                         |
+| 📥 Load Data    | Upload your Excel/CSV files dynamically              |
+| 📊 EDA          | Visualize sales trends, top items, and countries     |
+| 📈 Forecast     | 30-day forecast using Prophet                        |
+| 👥 Segmentation | RFM Clustering with KMeans                           |
+| ℹ️ About        | Developer info and contact                          |
+
+---
+
+## 🔗 Live Demo
+
+👉 [Click to Try the Live App on Streamlit Cloud](https://onlineretailanalyticsapp-fn4f38fbahiwbgdthvpv6t.streamlit.app/)
+
+---
+
+## 👩‍💻 Author
+
+**Shweta Gogawale**  
+🎓 Computer Engineering Student — BVCOEW Pune  
+📧 [gogawaleshweta12@gmail.com](mailto:gogawaleshweta12@gmail.com)  
+🔗 GitHub: [shweta-n-gogawale](https://github.com/shweta-n-gogawale)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an academic and portfolio project only.  
+- No external dataset is bundled or used by default.  
+- Users are responsible for uploading their own retail data for analysis.  
+- No personal data is stored or collected by this app.
+
