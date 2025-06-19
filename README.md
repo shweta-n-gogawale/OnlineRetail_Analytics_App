@@ -1,7 +1,7 @@
 📊 Online Retail Sales Analytics & Forecasting Dashboard
 An interactive, end-to-end dashboard built with Streamlit, based on the UCI Online Retail Dataset — featuring real-world transactions from a UK-based retailer (2010–2011).
 
-✨ Features
+# ✨ Features
 ✅ Upload dataset dynamically (.xlsx or .csv)
 
 ✅ Automated data cleaning & summarization
@@ -18,7 +18,7 @@ An interactive, end-to-end dashboard built with Streamlit, based on the UCI Onli
 
 ✅ Sleek and intuitive UI with Streamlit
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Purpose	Technology
 
@@ -36,22 +36,22 @@ Purpose	Technology
 
 ☁️ Deployment	
 
-🖥️ How to Run Locally
 
-# Clone the repository
+# 🖥️ How to Run Locally
+Clone the repository
 git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
 cd OnlineRetail_Analytics_App
 
-# (Optional) Create virtual environment
+(Optional) Create virtual environment
 python -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Run the Streamlit app
+Run the Streamlit app
 streamlit run app.py
-📁 Dataset Info
+# 📁 Dataset Info
 Source: UCI Online Retail Dataset
 
 Format: Excel (.xlsx) or CSV (.csv)
@@ -60,14 +60,13 @@ Upload: Use sidebar upload section — no code changes required
 
 📊 Home	📈 Forecast	👥 Segmentation
 
-👩‍💻 Author
+# 👩‍💻 Author
 Shweta Gogawale
 🎓 Computer Engineering Student — Bharati Vidyapeeth College of Engineering for Women
 📧 gogawaleshweta12@gmail.com
-🔗 LinkedIn
-💻 GitHub
 
-⚠️ Disclaimer
+
+# ⚠️ Disclaimer
 This project is for educational and portfolio purposes only.
 The dataset is publicly available via the UCI Machine Learning Repository.
 All rights to the dataset belong to the original contributors.
