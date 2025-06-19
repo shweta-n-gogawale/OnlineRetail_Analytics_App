@@ -80,12 +80,6 @@ The app dynamically detects required columns like:
 
 ---
 
-## 🔗 Live Demo
-
-👉 [Click to Try the Live App on Streamlit Cloud](https://onlineretailanalyticsapp-fn4f38fbahiwbgdthvpv6t.streamlit.app/)
-
----
-
 ## 👩‍💻 Author
 
 **Shweta Gogawale**  
