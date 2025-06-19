@@ -1,76 +1,92 @@
-# 📊 Online Retail Sales Analytics & Forecasting Dashboard
-An interactive, end-to-end dashboard built with Streamlit, based on the UCI Online Retail Dataset — featuring real-world transactions from a UK-based retailer (2010–2011).
+# 🛍️ Online Retail Sales Analytics & Forecasting Dashboard
 
-# ✨ Features
-✅ Upload dataset dynamically (.xlsx or .csv)
+A professional, end-to-end **Streamlit dashboard** for analyzing and forecasting sales data from **any retail dataset** (CSV or Excel).  
+Just upload your file — the app automatically cleans, analyzes, and visualizes your data in real time!
 
-✅ Automated data cleaning & summarization
+---
 
-✅ Interactive EDA with Plotly visualizations
+## ✨ Features
 
-✅ Sales Forecasting using Facebook Prophet
+✅ Upload any `.xlsx` or `.csv` file — no hardcoded dataset  
+✅ Auto-detection of **date**, **quantity**, **price**, **customer ID**, and other key columns  
+✅ 🔍 EDA with interactive charts: sales trends, top products, and country-level insights  
+✅ 🔮 Sales Forecasting using Facebook Prophet  
+✅ 👥 Customer Segmentation with RFM + KMeans  
+✅ 📤 Export forecast results to Excel and PDF  
+✅ ⚡️ Modern UI with cards, hover animations, and dark/light mode  
+✅ ☁️ Deployed live with **Streamlit Cloud**  
 
-✅ Customer Segmentation with RFM & KMeans
+---
 
-✅ Export reports to Excel & PDF
+## 🛠️ Tech Stack
 
-✅ Dark/Light mode toggle
+| Purpose           | Technology                     |
+|------------------|---------------------------------|
+| 🐍 Language       | Python                          |
+| 🌐 Web Framework  | Streamlit                       |
+| 📊 Analysis       | Pandas, NumPy                   |
+| 📈 Visualization  | Plotly, Plotly Express          |
+| 🔮 Forecasting    | Prophet (Facebook)              |
+| 📌 Clustering     | Scikit-learn (KMeans)           |
+| 📁 File Support   | openpyxl, csv                   |
+| 📄 PDF Export     | FPDF, BytesIO                   |
+| ☁️ Deployment     | Streamlit Cloud                 |
 
-✅ Sleek and intuitive UI with Streamlit
+---
+##📁 Supported Dataset Format
+Upload any retail dataset in .csv or .xlsx format
 
-# 🛠️ Tech Stack
+The app dynamically detects required columns like:
 
-Purpose	Technology
+Column Type	Example Names
+📅 Date	InvoiceDate, OrderDate
+📦 Quantity	Quantity, qty
+💰 Price	UnitPrice, Price
+🧾 Invoice	InvoiceNo
+👤 Customer	CustomerID
 
-🐍 Language	
+No code edits needed — just upload your file in the sidebar and explore!
 
-🌐 Web Framework	
- 
-📊 Analysis	
+##🧠 App Modules
+Section	Description
+🏠 Home	Intro + upload instructions
+📥 Load Data	Upload your Excel/CSV files dynamically
+📊 EDA	Visualize sales trends, top items, and countries
+📈 Forecast	30-day forecast using Prophet
+👥 Segmentation	RFM Clustering with KMeans
+ℹ️ About	Developer info and contact
 
-📈 Visualization	
+##🔗 Live Demo
+👉 Click to Try the Live App on Streamlit Cloud
 
-🔮 Forecasting	
+##👩‍💻 Author
+Shweta Gogawale
+🎓 Computer Engineering Student — BVCOEW Pune
+📧 gogawaleshweta12@gmail.com
+🔗 GitHub: shweta-n-gogawale
 
-📌 Clustering	
+##⚠️ Disclaimer
+This is an academic and portfolio project only.
 
-☁️ Deployment	
+No external dataset is bundled or used by default.
 
+Users are responsible for uploading their own retail data for analysis.
 
-# 🖥️ How to Run Locally
-Clone the repository
+No personal data is stored or collected by this app.
+
+## 🖥️ How to Run Locally
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
 cd OnlineRetail_Analytics_App
 
-(Optional) Create virtual environment
+# 2. (Optional) Create virtual environment
 python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+source env/bin/activate       # On Windows: env\Scripts\activate
 
-Install dependencies
+# 3. Install dependencies
 pip install -r requirements.txt
 
-Run the Streamlit app
+# 4. Launch the app
 streamlit run app.py
-# 📁 Dataset Info
-Source: UCI Online Retail Dataset
-
-Format: Excel (.xlsx) or CSV (.csv)
-
-Upload: Use sidebar upload section — no code changes required
-
-📊 Home	📈 Forecast	👥 Segmentation
-
-# 👩‍💻 Author
-Shweta Gogawale
-🎓 Computer Engineering Student — Bharati Vidyapeeth College of Engineering for Women
-📧
-gogawaleshweta12@gmail.com
-
-
-# ⚠️ Disclaimer
-This project is for educational and portfolio purposes only.
-The dataset is publicly available via the UCI Machine Learning Repository.
-All rights to the dataset belong to the original contributors.
-No user data is collected or stored from this application.
-
-⭐ If you liked this project, don’t forget to star it on GitHub!
