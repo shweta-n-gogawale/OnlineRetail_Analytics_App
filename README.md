@@ -22,26 +22,6 @@ An interactive, end-to-end analytics dashboard built using **Streamlit**, based 
 - ✅ Sleek and intuitive Streamlit interface
 
 ---
-
-## 🧪 How to Run Locally
-
-```bash
-# Clone the repo
-git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
-cd OnlineRetail_Analytics_App
-
-# (Optional) Create a virtual environment
-python -m venv env
-source env/bin/activate     # On Windows: env\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch the app
-streamlit run app.py
-📁 Dataset Info
-Source: UCI Online Retail Dataset
-
 Format: Excel .xlsx
 
 Upload Method: Upload through the app sidebar — no need to modify code manually.
@@ -82,3 +62,22 @@ All rights and credits for the dataset belong to its original contributors.
 No data is collected or stored from users.
 This dashboard was developed for portfolio use and learning demonstrations in analytics, forecasting, and customer segmentation.
 
+---
+## 🧪 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
+cd OnlineRetail_Analytics_App
+
+# (Optional) Create a virtual environment
+python -m venv env
+source env/bin/activate     # On Windows: env\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the app
+streamlit run app.py
+📁 Dataset Info
+Source: UCI Online Retail Dataset
