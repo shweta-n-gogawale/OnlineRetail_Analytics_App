@@ -1,4 +1,4 @@
-📊 Online Retail Sales Analytics & Forecasting Dashboard
+# 📊 Online Retail Sales Analytics & Forecasting Dashboard
 An interactive, end-to-end dashboard built with Streamlit, based on the UCI Online Retail Dataset — featuring real-world transactions from a UK-based retailer (2010–2011).
 
 # ✨ Features
@@ -63,7 +63,8 @@ Upload: Use sidebar upload section — no code changes required
 # 👩‍💻 Author
 Shweta Gogawale
 🎓 Computer Engineering Student — Bharati Vidyapeeth College of Engineering for Women
-📧 gogawaleshweta12@gmail.com
+📧
+gogawaleshweta12@gmail.com
 
 
 # ⚠️ Disclaimer
