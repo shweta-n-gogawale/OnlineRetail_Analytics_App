@@ -1,34 +1,43 @@
 📊 Online Retail Sales Analytics & Forecasting Dashboard
 An interactive, end-to-end dashboard built with Streamlit, based on the UCI Online Retail Dataset — featuring real-world transactions from a UK-based retailer (2010–2011).
 
-🌐 Live Demo
-🚀 Click to View Deployed App
-(Replace the link above with your deployed Streamlit Cloud URL)
-
 ✨ Features
 ✅ Upload dataset dynamically (.xlsx or .csv)
+
 ✅ Automated data cleaning & summarization
+
 ✅ Interactive EDA with Plotly visualizations
+
 ✅ Sales Forecasting using Facebook Prophet
+
 ✅ Customer Segmentation with RFM & KMeans
+
 ✅ Export reports to Excel & PDF
+
 ✅ Dark/Light mode toggle
+
 ✅ Sleek and intuitive UI with Streamlit
 
 🛠️ Tech Stack
+
 Purpose	Technology
+
 🐍 Language	
+
 🌐 Web Framework	
+ 
 📊 Analysis	
+
 📈 Visualization	
+
 🔮 Forecasting	
+
 📌 Clustering	
+
 ☁️ Deployment	
 
 🖥️ How to Run Locally
-bash
-Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
 cd OnlineRetail_Analytics_App
@@ -48,9 +57,6 @@ Source: UCI Online Retail Dataset
 Format: Excel (.xlsx) or CSV (.csv)
 
 Upload: Use sidebar upload section — no code changes required
-
-📸 Screenshots
-(Place your actual screenshots in an images/ folder and link them like below)
 
 📊 Home	📈 Forecast	👥 Segmentation
 
