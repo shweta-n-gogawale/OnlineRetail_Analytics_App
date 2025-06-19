@@ -18,7 +18,7 @@ if 'df' not in st.session_state:
 if choice == "Home":
     st.markdown("""
     ### Welcome to the Online Retail Sales Analytics Dashboard
-    - Load dataset from Excel file
+    - Load dataset from Excel or CSV file
     - Perform exploratory data analysis (EDA)
     - Forecast sales using Prophet
     - Segment customers using RFM + KMeans
@@ -26,9 +26,9 @@ if choice == "Home":
 
 elif choice == "Load Data":
     st.subheader("Load Dataset")
-    uploaded_file = st.file_uploader("Upload Online Retail Excel file (.xlsx)", type=['xlsx'])
+    uploaded_file = st.file_uploader("Upload Online Retail file (.xlsx or .csv)", type=['xlsx', 'csv'])
     if uploaded_file is not None:
-        df = pd.read_excel(uploaded_file, engine='openpyxl')
+        df = load_data(uploaded_file)
         st.session_state.df = df
         st.success("Dataset loaded successfully!")
         st.write(df.head())
