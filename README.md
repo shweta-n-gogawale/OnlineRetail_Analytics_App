@@ -1,83 +1,70 @@
-# 📊 Online Retail Sales Analytics & Forecasting Dashboard
+📊 Online Retail Sales Analytics & Forecasting Dashboard
+An interactive, end-to-end dashboard built with Streamlit, based on the UCI Online Retail Dataset — featuring real-world transactions from a UK-based retailer (2010–2011).
 
-An interactive, end-to-end analytics dashboard built using **Streamlit**, based on the [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail) — real-world transactional data from a UK-based retailer (2010–2011).
+🌐 Live Demo
+🚀 Click to View Deployed App
+(Replace the link above with your deployed Streamlit Cloud URL)
 
----
-
-### 🌐 Live Demo
-
-👉 [Deployed App](https://your-deployment-link.streamlit.app) <!-- Replace with your actual Streamlit Cloud link -->
-
----
-
-## 📌 Features
-
-- ✅ Upload dataset dynamically (`.xlsx` or `.csv`)
-- ✅ Automated data cleaning & summarization
-- ✅ Interactive **EDA with Plotly charts**
-- ✅ **Sales Forecasting** using Prophet
-- ✅ **Customer Segmentation** via RFM + KMeans
-- ✅ Export insights to **Excel & PDF**
-- ✅ Light/Dark mode toggle
-- ✅ Sleek and intuitive Streamlit interface
-
----
-Format: Excel .xlsx
-
-Upload Method: Upload through the app sidebar — no need to modify code manually.
+✨ Features
+✅ Upload dataset dynamically (.xlsx or .csv)
+✅ Automated data cleaning & summarization
+✅ Interactive EDA with Plotly visualizations
+✅ Sales Forecasting using Facebook Prophet
+✅ Customer Segmentation with RFM & KMeans
+✅ Export reports to Excel & PDF
+✅ Dark/Light mode toggle
+✅ Sleek and intuitive UI with Streamlit
 
 🛠️ Tech Stack
-Programming Language
+Purpose	Technology
+🐍 Language	
+🌐 Web Framework	
+📊 Analysis	
+📈 Visualization	
+🔮 Forecasting	
+📌 Clustering	
+☁️ Deployment	
 
-Web Framework
+🖥️ How to Run Locally
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
+cd OnlineRetail_Analytics_App
 
-Data Analysis
+# (Optional) Create virtual environment
+python -m venv env
+source env/bin/activate  # On Windows: env\Scripts\activate
 
-Visualization
+# Install dependencies
+pip install -r requirements.txt
 
-Forecasting
+# Run the Streamlit app
+streamlit run app.py
+📁 Dataset Info
+Source: UCI Online Retail Dataset
 
-Clustering
+Format: Excel (.xlsx) or CSV (.csv)
 
-Deployment
+Upload: Use sidebar upload section — no code changes required
 
 📸 Screenshots
-📌 (Add actual screenshots in an images/ folder and link them like below)
+(Place your actual screenshots in an images/ folder and link them like below)
 
-Home Page	EDA
-
-Forecasting	Segmentation
+📊 Home	📈 Forecast	👥 Segmentation
 
 👩‍💻 Author
 Shweta Gogawale
 🎓 Computer Engineering Student — Bharati Vidyapeeth College of Engineering for Women
 📧 gogawaleshweta12@gmail.com
+🔗 LinkedIn
+💻 GitHub
 
 ⚠️ Disclaimer
-This project is intended solely for educational and non-commercial purposes.
+This project is for educational and portfolio purposes only.
+The dataset is publicly available via the UCI Machine Learning Repository.
+All rights to the dataset belong to the original contributors.
+No user data is collected or stored from this application.
 
-The dataset used in this application is publicly available via the UCI Machine Learning Repository.
-All rights and credits for the dataset belong to its original contributors.
-
-No data is collected or stored from users.
-This dashboard was developed for portfolio use and learning demonstrations in analytics, forecasting, and customer segmentation.
-
----
-## 🧪 How to Run Locally
-
-```bash
-# Clone the repo
-git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
-cd OnlineRetail_Analytics_App
-
-# (Optional) Create a virtual environment
-python -m venv env
-source env/bin/activate     # On Windows: env\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch the app
-streamlit run app.py
-📁 Dataset Info
-Source: UCI Online Retail Dataset
+⭐ If you liked this project, don’t forget to star it on GitHub!
