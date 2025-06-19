@@ -36,18 +36,18 @@ Just upload your file — the app automatically cleans, analyzes, and visualizes
 
 ## 🖥️ How to Run Locally
 
-# 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/shweta-n-gogawale/OnlineRetail_Analytics_App.git
 cd OnlineRetail_Analytics_App
 
-# 2. (Optional) Create virtual environment
+2. (Optional) Create virtual environment
 python -m venv env
 source env/bin/activate       # On Windows: env\Scripts\activate
 
-# 3. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Launch the app
+4. Launch the app
 streamlit run app.py
 
 ## 📁 Supported Dataset Format
